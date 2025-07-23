@@ -1,0 +1,86 @@
+body.login-page {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #fbcfe8, #f472b6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-wrapper {
+  display: flex;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+  width: 800px;
+  max-width: 95%;
+}
+
+.login-left, .login-right {
+  flex: 1;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.login-left {
+  background: linear-gradient(135deg, #f472b6, #fbcfe8);
+  color: white;
+  text-align: center;
+}
+
+.login-left img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.login-right h2 {
+  margin-bottom: 20px;
+  color: #f472b6;
+}
+
+/agar form nya seraga,/
+.login-right input[type="text"],
+.login-right input[type="password"],
+.login-right input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.login-right button {
+  width: 100%;
+  padding: 10px;
+  background: #f472b6;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-right p {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.login-right a {
+  color: #f472b6;
+  text-decoration: none;
+}
+
+.success-message {
+  background-color: #d1fae5;
+  color: #065f46;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-align: center;
+}
